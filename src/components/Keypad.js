@@ -5,9 +5,10 @@ import React, { Component } from "react";
 
 // class Keypad extends React.Component {
 class Keypad extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor() {
+  //   super()
+  //   this.state = {}
+  // }
 
   enteringPassword = () => {
     console.log('Entering password...');

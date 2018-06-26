@@ -2,9 +2,10 @@
 import React, { Component } from "react";
 
 class EyesOnMe extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor() {
+  //   super()
+  //   this.state = {}
+  // }
 
   onFocus = () => {
     console.log("Good!");
