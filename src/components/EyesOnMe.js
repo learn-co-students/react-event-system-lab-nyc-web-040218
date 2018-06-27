@@ -1,9 +1,18 @@
 import React from 'react'
 
  class EyesOnMe extends React.Component {
+
+   good() {
+     return console.log('Good!')
+   }
+
+   eyes() {
+     return console.log('Hey! Eyes on me!')
+   }
+
    render() {
      return (
-       <button onFocus={console.log('Good!')} onBlur={console.log('Hey! Eyes on me!')}>Cool button </button>
+       <button onFocus={this.good} onBlur={this.eyes}>Cool button </button>
      )
    }
  }
